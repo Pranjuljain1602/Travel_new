@@ -15,7 +15,7 @@
   --tr-heading-primary: #191B1A;
   --tr-grey-1: #F2F5EC;
   --tr-text-body: #5B5B5B;
-  --tr-theme-1: #034833;
+  --tr-theme-11: #034833;
   --tr-theme-2: #83CD20;
   --tr-border-1: #EEEEEE;
 }
@@ -407,8 +407,25 @@ input[type=color] {
   transition: all 0.3s;
   display: inline-block;
   color: var(--tr-common-black);
-  border: 1px solid var(--tr-theme-1);
+  border: 1px solid var(  --tr-theme-11);
 }
+
+.tr-hero-2-thumb img{
+  width: 1000px;
+  height: 600px;
+  position: relative;
+  right: -20%;
+  top: -150px;
+}
+
+.tr-subscribe-thumb-box img{
+  width: 900px;
+  height: 500px;
+  position: relative;
+  right: -20%;
+  top: -150px;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .tr-btn {
     font-size: 17px;
@@ -421,8 +438,8 @@ input[type=color] {
 }
 .tr-btn:hover {
   color: var(--tr-common-white);
-  border-color: var(--tr-theme-1);
-  background-color: var(--tr-theme-1);
+  border-color: var(--tr-theme-11);
+  background-color: var(--tr-theme-11);
 }
 .tr-btn.grey-border {
   border: 2px solid #EEEEEE;
@@ -436,7 +453,7 @@ input[type=color] {
   display: inline-block;
   color: var(--tr-common-white);
   border: 1px solid transparent;
-  background-color: var(--tr-theme-1);
+  background-color: var(--tr-theme-11);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .tr-btn-green {
@@ -4442,7 +4459,7 @@ input[type=color] {
   top: 0;
   left: 0;
   font-size: 25px;
-  color: var(--tr-theme-1);
+  color: var(--tr-theme-11);
 }
 .tr-about-list-content {
   padding-left: 45px;
@@ -4460,7 +4477,7 @@ input[type=color] {
   top: 0;
   left: 0;
   font-size: 20px;
-  color: var(--tr-theme-1);
+  color: var(--tr-theme-11);
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
