@@ -410,13 +410,8 @@ input[type=color] {
   border: 1px solid var(  --tr-theme-11);
 }
 
-.tr-hero-2-thumb img{
-  width: 1000px;
-  height: 600px;
-  position: relative;
-  right: -20%;
-  top: -150px;
-}
+
+
 
 .tr-subscribe-thumb-box img{
   width: 900px;
